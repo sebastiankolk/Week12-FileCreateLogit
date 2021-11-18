@@ -10,7 +10,7 @@ namespace ToDoList
         static void Main(string[] args)
         {
             List<string> toDoFromFile = new List<string>();
-            string toDoFilePath = $@"C:\Users\opilane\samples\titpe21\ToDoList.txt";
+            string toDoFilePath = $@"C:\Users\opilane\samples\LOGITpe21\ToDoList.txt";
             toDoFromFile = File.ReadAllLines(toDoFilePath).ToList();
 
             foreach (string task in toDoFromFile)
